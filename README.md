@@ -1,9 +1,9 @@
-# NodeJS Boilerplate
+# NPM package Boilerplate
 
 ## Features:
 
 - TypeScript
-- Jest
+- Vitest
 - ESLint
 - Prettier
 - Husky

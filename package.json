@@ -1,5 +1,5 @@
 {
-  "name": "node-boilerplate",
+  "name": "npm-package-boilerplate",
   "version": "0.0.0-development",
   "description": "NodeJS boilerplate with TypeScript, Jest, ESLint, Prettier, Husky, CommitLint, CI in GitHub Action",
   "keywords": [
@@ -9,7 +9,7 @@
     "husky",
     "commitlint",
     "typescript",
-    "jest"
+    "vitest"
   ],
   "files": [
     "lib"
