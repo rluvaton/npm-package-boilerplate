@@ -15,13 +15,13 @@ create-new-app () {
   mkdir -p "$target_dir"
   cd "$target_dir"
 
-  echo -e "\n${GRREN}Getting the code from the node-boilerplate:${RESET_COLOR}"
+  echo -e "\n${GRREN}Getting the code from the npm-package-boilerplate:${RESET_COLOR}"
 
   # Init new application
   git init
 
   # Get the boilerplate code without adding it as a remote
-  git fetch --depth=1 -n https://github.com/rluvaton/node-boilerplate.git
+  git fetch --depth=1 -n https://github.com/rluvaton/npm-package-boilerplate.git
 
   # Squash all the boilerplate commits into one initial commit
   git reset --hard $(git commit-tree FETCH_HEAD^{tree} -m "initial commit")
