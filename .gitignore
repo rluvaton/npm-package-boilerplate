@@ -8,3 +8,4 @@ coverage/
 
 
 # Lock file should be ignored in npm packages
+package-lock.json

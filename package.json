@@ -44,6 +44,9 @@
     "typescript": "^4.9.4",
     "semantic-release": "^19.0.5"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "release": {
     "branches": [
       "main"
@@ -52,5 +55,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/rluvaton/npm-package-boilerplate.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/rluvaton/npm-package-boilerplate/issues"
+  },
+  "license": "MIT"
 }
