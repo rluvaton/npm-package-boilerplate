@@ -15,7 +15,7 @@
 
 #### Setup
 
-for it to work you need to add to your GitHub secrets the `NPM_TOKEN` variable with the NPM token to publish
+for it to work you need to add to your GitHub secrets the `NPM_TOKEN` variable with the NPM token to publish and update the url in the package.json file
 
 #### Removing that feature
 
